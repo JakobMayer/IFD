@@ -14,31 +14,49 @@ p {
     font-size: 16px;
 }
 
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px black;
+}
+
+h4 {
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
 
 
 
 /* -------- Seiten --------------------------*/
 /* ------------------------------------------*/
 
-.startseite {
-    text-align: center;
-}
+
 
 
 /* -------- Buttons -------------------------*/
 /* ------------------------------------------*/
 
-.button1 {
-    display: block;
-    background-color: rgba(255, 255, 255, 0.897); 
-    border-radius: 70px;
-    padding: 6px 18px  ;
-    font-size: 20px;
-    margin: 30px auto 0 auto;
-    border: 1px solid rgb(86, 85, 85);
+
+
+/* -------- Content -------------------------*/
+/* ------------------------------------------*/
+
+.content-container {
+    background-color: white;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 90%;
+    margin: 20px 5% 10px 5%;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgb(74, 74, 74);
 }
 
-.button1:first-of-type {
-    margin-top: 80%;
+.content-container img {
+    width: 100px;
+    height: auto;
+    border-radius: 15px 0 0 15px;
 }
