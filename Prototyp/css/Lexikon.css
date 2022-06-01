@@ -1,3 +1,20 @@
 body {
-    background-color: blue;
+    background-image: linear-gradient(rgba(1, 1, 1, 0.21), rgba(0, 0, 0, 0.308)),url("/Bilder/Hintergrund copy.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
 }
+
+.search {
+    float: right;
+    margin-right: 5%;
+    margin-top:2%;
+    width: 80px;
+    padding: 1%;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;  
+}
+
