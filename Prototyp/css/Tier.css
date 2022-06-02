@@ -40,52 +40,30 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 @media screen and (min-width: 601px) {
   div.ueberschrift {
-    font-size: 50px;
+  font-size: 50px;
 	color: #719e51;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
   }
 }
+
 @media screen and (max-width: 600px) {
   div.ueberschrift {
-    font-size: 35px;
+  font-size: 35px;
 	font-weight:bold;
 	text-align: center;
+  color: #719e51;
   }
-}
-
-.container_row {
-  display: grid;
-}
-
-.triangle-container {
-  width: 500px;
-  margin: auto;
-  text-align:center;
-}
-@media (max-width: 1280px) {
-	.triangle-container {
-		width: 300px;
-		margin: auto;
-		text-align:center;
-	}
-}
- 
-.triangle-svg {
-    fill: white;
-    stroke: red;
-    stroke-width: 10;
-	text-align:center;
 }
 
 @media screen and (min-width: 601px) {
   div.untertitel {
-    font-size: 40px;
+  font-size: 40px;
 	color: #719e51;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
@@ -93,7 +71,7 @@
 }
 @media screen and (max-width: 600px) {
   div.untertitel {
-    font-size: 30px;
+  font-size: 30px;
 	font-weight:strong;
 	text-align: center;
   }
@@ -101,15 +79,16 @@
 
 @media screen and (min-width: 601px) {
   div.subtitel {
-    font-size: 35px;
+  font-size: 35px;
 	color: #719e51;
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
   }
 }
+
 @media screen and (max-width: 600px) {
   div.subtitel {
-    font-size: 30px;
+  font-size: 30px;
 	text-align: center;
   }
 }
@@ -120,20 +99,23 @@ h3 {
 }
 
 h4 {
-	font-size: 30px;
+	font-size: 35px;
 	font-family:'Ubuntu', sans-serif;
 }
+
 @media screen and (max-width: 600px) {
 	h4 {
-		font-size: 20px;
+	font-size: 25px;
 	font-family: 'Ubuntu', sans-serif;
 	}
 }
+
 p {
 	font-size: 25px;
 	line-height: 150%;
 	font-family: 'Ubuntu', sans-serif;
 }
+
 @media (max-width: 600px) {
 	p{
 		font-size: 15px;
@@ -310,119 +292,8 @@ section article {
   color: #333;
 }
 
-
-* {box-sizing: border-box}
-body {font-family: 'Ubuntu', sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-
-.slideshow-container {
-  position: relative;
-  margin: auto;
-  z-index: -1;
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.text {
-  color: black;
-  font-size: 30px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-}
-@media(max-width: 1200px) {
-	.text{
-	color: black;
-	font-size: 20px;
-	padding: 4px 6px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
-	}
-}
-
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
 .collapsible {
-  background-color: #777;
+  background-color: rgb(18, 68, 3);
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -436,7 +307,7 @@ img {vertical-align: middle;}
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: rgb(60, 119, 63);
 }
 
 .content {
