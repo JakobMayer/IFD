@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(1, 1, 1, 0.21), rgba(0, 0, 0, 0.308)),url("Bilder/Hintergrund copy.jpeg");
+    background-image: linear-gradient(rgba(1, 1, 1, 0.21), rgba(0, 0, 0, 0.308)),url("/Bilder/Hintergrund copy.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -30,8 +30,5 @@ body {
 
 .button1:first-of-type {
     margin-top: 80%;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2dd4ad3f5f6ffe3d07a3a08e9b72f8435a054ee7
+
