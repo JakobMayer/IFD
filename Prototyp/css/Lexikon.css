@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     background-image: linear-gradient(rgba(1, 1, 1, 0.3), rgba(0, 0, 0, 0.359)),url("../Bilder/Hintergrund.jpeg");
+=======
+    background-image: linear-gradient(rgba(1, 1, 1, 0.3), rgba(0, 0, 0, 0.359)),url("Bilder/Hintergrund.jpeg");
+>>>>>>> eb5b6604bfe47b42a39971739e317cc6d975a386
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
