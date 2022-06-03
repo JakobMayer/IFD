@@ -18,6 +18,11 @@
 }
 }
 
+.top-left {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
 
 @media screen and (max-width:600px) {
   .column {
@@ -41,6 +46,12 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
   font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width:600px) {
+  div.centertext{
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 601px) {
