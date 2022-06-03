@@ -328,4 +328,13 @@ section article {
     background-color: #f1f1f1;
 }
 
-
+.button1 {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.897);
+  border-radius: 70px;
+  padding: 6px 18px;
+  font-size: 20px;
+  margin: 30px auto 0 auto;
+  border: 1px solid rgb(86, 85, 85);
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
