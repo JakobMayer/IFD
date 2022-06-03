@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(1, 1, 1, 0.3), rgba(0, 0, 0, 0.359)),url("/Bilder/Hintergrund\ copy.jpeg");
+    background-image: linear-gradient(rgba(1, 1, 1, 0.3), rgba(0, 0, 0, 0.359)),url("Bilder/Hintergrund.jpeg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
