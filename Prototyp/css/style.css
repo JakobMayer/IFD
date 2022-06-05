@@ -32,7 +32,7 @@ h4 {
 
 
 
-/* -------- Seiten --------------------------*/
+/* -------- Seitenelemente ------------------*/
 /* ------------------------------------------*/
 
 .search {
@@ -46,6 +46,13 @@ h4 {
     border-radius: 5px;
     border: 1px solid black;  
 }
+
+.back {
+    float: left;
+    width: 25px;
+    margin-left: 20px;
+}
+
 
 
 
