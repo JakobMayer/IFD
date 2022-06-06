@@ -11,12 +11,16 @@ h5 {
 
 .einstellung {
     width: 100%;
-    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.einstellung:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .switch {
     position: relative;
-    display: inline-block;
     width: 60px;
     height: 34px;
     float: right;
@@ -54,11 +58,11 @@ h5 {
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #719e51;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #719e51;
   }
   
   input:checked + .slider:before {

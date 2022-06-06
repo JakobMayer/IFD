@@ -79,3 +79,9 @@ h4 {
     height: auto;
     border-radius: 15px 0 0 15px;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
