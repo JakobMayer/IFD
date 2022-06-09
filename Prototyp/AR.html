@@ -54,7 +54,7 @@
       arObject.visible = false;
       scene.addNode(arObject);
 
-      let fox = new Gltf2Node({url: 'Prototyp\media\gltf\Fox\glTF-Binary\Fox.glb'});
+      let fox = new Gltf2Node({url: 'media/gltf/Fox/Fox.glb'});
       arObject.addNode(fox);
 
       let reticle = new Gltf2Node({url: 'media/gltf/reticle/reticle.gltf'});
@@ -148,7 +148,7 @@
       const MAX_ANCHORED_OBJECTS = 1;
       let anchoredObjects = [];
       function addAnchoredObjectsToScene(anchor) {
-        let fox = new Gltf2Node({url: 'Prototyp\media\gltf\Fox\glTF-Binary\Fox.glb'});
+        let fox = new Gltf2Node({url: 'media/gltf/Fox/Fox.glb'});
         scene.addNode(fox);
         anchoredObjects.push({
           anchoredObject: fox,
