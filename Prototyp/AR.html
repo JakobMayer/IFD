@@ -21,11 +21,11 @@
 <body>
     <header>
       <details open>
-        <summary>Hit Test with Anchors</summary>
-        <p>
-          This sample demonstrates using hit testing to find intersections on real-world surfaces and then using Anchors to attach a virtual object to that location.
-          <a class="back" href="./">Back</a>
+        <summary>AR Funktion</summary>
+        <p style="text-align:center;">
+          Hier drücken, um die Kamera freizugeben und die AR Funktion zu starten.
         </p>
+        <a class="back" onclick=document.location="Tier.html">Zurück</a>
       </details>
     </header>
     <script type="module">
@@ -54,7 +54,7 @@
       arObject.visible = false;
       scene.addNode(arObject);
 
-      let fox = new Gltf2Node({url: 'media/gltf/Fox/glTF/Fox.gltf'});
+      let fox = new Gltf2Node({url: 'Prototyp\media\gltf\Fox\glTF-Binary\Fox.glb'});
       arObject.addNode(fox);
 
       let reticle = new Gltf2Node({url: 'media/gltf/reticle/reticle.gltf'});
@@ -68,7 +68,7 @@
       vec3.set(shadow.scale, 0.15, 0.15, 0.15);
       arObject.addNode(shadow);
 
-      const MAX_FOXES = 5;
+      const MAX_FOXES = 1;
       let foxes = [];
 
       // Ensure the background is transparent for AR.
@@ -145,10 +145,10 @@
         xrButton.setSession(null);
       }
 
-      const MAX_ANCHORED_OBJECTS = 30;
+      const MAX_ANCHORED_OBJECTS = 1;
       let anchoredObjects = [];
       function addAnchoredObjectsToScene(anchor) {
-        let fox = new Gltf2Node({url: 'media/gltf/Fox/glTF/Fox.gltf'});
+        let fox = new Gltf2Node({url: 'Prototyp\media\gltf\Fox\glTF-Binary\Fox.glb'});
         scene.addNode(fox);
         anchoredObjects.push({
           anchoredObject: fox,

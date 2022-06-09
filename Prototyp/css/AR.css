@@ -48,6 +48,8 @@ body {
   .back {
     float: right;
     text-decoration: none;
+    margin: auto;
+    padding-right: 10%;
   }
   
   .back:hover {

@@ -194,11 +194,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
         anchor.context = {};
 
-        let flower = new Gltf2Node({url: 'media/gltf/sunflower/sunflower.gltf'});
-        scene.addNode(flower);
-        anchor.context.sceneObject = flower;
-        flower.anchor = anchor;
-        anchoredObjects.push(flower);
+        let fox = new Gltf2Node({url: 'Prototyp\media\gltf\Fox\glTF-Binary\Fox.glb'});
+        scene.addNode(fox);
+        anchor.context.sceneObject = fox;
+        fox.anchor = anchor;
+        anchoredObjects.push(fox);
 
         // For performance reasons if we add too many objects start
         // removing the oldest ones to keep the scene complexity
