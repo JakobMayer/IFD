@@ -54,8 +54,8 @@
       arObject.visible = false;
       scene.addNode(arObject);
 
-      let fox = new Gltf2Node({url: 'media/gltf/Fox/Fox.glb'});
-      arObject.addNode(fox);
+      let flower = new Gltf2Node({url: 'media/gltf/Fox/glTF/Fox.gltf'});
+      arObject.addNode(flower);
 
       let reticle = new Gltf2Node({url: 'media/gltf/reticle/reticle.gltf'});
       reticle.visible = false;
@@ -68,8 +68,8 @@
       vec3.set(shadow.scale, 0.15, 0.15, 0.15);
       arObject.addNode(shadow);
 
-      const MAX_FOXES = 1;
-      let foxes = [];
+      const MAX_FLOWERS = 30;
+      let flowers = [];
 
       // Ensure the background is transparent for AR.
       scene.clear = false;
@@ -145,13 +145,13 @@
         xrButton.setSession(null);
       }
 
-      const MAX_ANCHORED_OBJECTS = 1;
+      const MAX_ANCHORED_OBJECTS = 30;
       let anchoredObjects = [];
       function addAnchoredObjectsToScene(anchor) {
-        let fox = new Gltf2Node({url: 'media/gltf/Fox/Fox.glb'});
-        scene.addNode(fox);
+        let flower = new Gltf2Node({url: 'media/gltf/Fox/glTF/Fox.gltf'});
+        scene.addNode(flower);
         anchoredObjects.push({
-          anchoredObject: fox,
+          anchoredObject: flower,
           anchor: anchor
         });
 
