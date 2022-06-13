@@ -7,3 +7,16 @@
     margin-top: 30%;
     margin-bottom: 5%;
 }
+
+#container {
+    margin: 0px auto;
+    width: 90vw;
+    height: 90vw;
+    border: 5px #719e51 solid;
+}
+
+#videoElement {
+    width: 100%;
+    height: 100%;
+    background-color: #666;
+}
