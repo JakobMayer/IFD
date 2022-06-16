@@ -338,3 +338,7 @@ section article {
   border: 1px solid rgb(86, 85, 85);
   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
+
+.button1:active {
+  background-color: green;
+}

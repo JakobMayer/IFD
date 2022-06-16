@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(41, 41, 41);
+  }
+    
+  
+  
+  .ar-container {
+    height: 80vh;
+    margin-bottom: 20vh;
+  }
+  
+  
+  
+  .button {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 2%;
+    left: 3%;
+    background-color: rgba(253, 255, 253, 0.272);
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 9999;
+    
+    text-align: center;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .button:active {
+    background-color: green;
+  }
+  
+  .button_bottom_1 {
+    position:absolute;
+    width: 70px;
+    height: 50px;
+    bottom: 2%;
+    left: 10%;
+    background-color: rgba(108, 179, 111, 0.629);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.299), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 9999;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    float: left;
+  }
+  
+  .button_bottom_1:active {
+    background-color: green;
+  }
+  
+  .button_bottom_2 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 2%;
+    left: 42%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 9999;
+    color: black;
+    font-size: 18px;
+    float: left;
+    border-radius: 150px;
+  }
+  
+  .button_bottom_2:active {
+    background-color: green;
+  }
+  
+  .button_bottom_3 {
+    position:absolute;
+    width: 70px;
+    height: 50px;
+    bottom: 2%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 9999;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    float: left;
+  }
+  
+  .button_bottom_3:active {
+    background-color: green;
+  }
