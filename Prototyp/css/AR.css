@@ -30,6 +30,10 @@
   font-size: 18px;
 }
 
+.button:active {
+  background-color: green;
+}
+
 .button_bottom_1 {
   position:absolute;
   width: 70px;
@@ -44,7 +48,10 @@
   color: black;
   font-size: 18px;
   float: left;
-  
+}
+
+.button_bottom_1:active {
+  background-color: green;
 }
 
 .button_bottom_2 {
@@ -63,6 +70,10 @@
   border-radius: 150px;
 }
 
+.button_bottom_2:active {
+  background-color: green;
+}
+
 .button_bottom_3 {
   position:absolute;
   width: 70px;
@@ -77,5 +88,9 @@
   color: black;
   font-size: 18px;
   float: left;
+}
+
+.button_bottom_3:active {
+  background-color: green;
 }
 
