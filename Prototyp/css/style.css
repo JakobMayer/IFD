@@ -34,13 +34,19 @@ h4 {
 /* -------- Seitenelemente ------------------*/
 /* ------------------------------------------*/
 
-.search {
+.search[type=text]{
     margin: 0 5% 0 5%;
     width: 90%;
     height: 30px;
     font-size: 18px;
     border-radius: 5px;
-    border: 1px solid black;  
+    border: 2px solid black;  
+}
+
+.search[type=text]:focus {
+    border: 2px solid green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.299), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline:none;
 }
 
 .back {
