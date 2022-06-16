@@ -1,9 +1,26 @@
-body {
-    
-    font: 1rem/1.4 -apple-system, BlinkMacSystemFont,
-      Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans,
-      Droid Sans, Helvetica Neue, sans-serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(41, 41, 41);
+}
   
-  
+.back {
+  float: left;
+  width: 30px;
+  height: auto;
+  margin-left: 20px;
+  padding-top: 3px;
+}
+
+.ar-container {
+  height: 80vh;
+  margin-bottom: 20vh;
+}
+
+.button-area {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+}
