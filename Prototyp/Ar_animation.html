@@ -29,7 +29,8 @@
     <a-scene embedded arjs>
       <!-- create your content here. just a box for now -->
     
-      <a-image src="Bilder/AR/fox-transparent.png" width="3" height="3"></a-image>
+      <a-video src="Bilder/AR/fox_animation.mp4" width="2" height="1.2" scale="2 2 2" opacity="0.65" autoplay loop="true">
+    </a-video>
   
       <!-- define a camera which will move according to the marker position -->
       <a-marker-camera preset='hiro'></a-marker-camera>
@@ -41,8 +42,3 @@
     <button class="button_bottom_1"  onclick=document.location="AR_data.html"><img src="Bilder/AR/data.png" height ="30" width="30"</button>
     <button class="button_bottom_2"  ><img src="Bilder/AR/camera.png" height ="30" width="30"</button>
     <button class="button_bottom_3"  onclick=document.location="AR_animation.html"><img src="Bilder/AR/play.png" height ="30" width="30"</button>
-
-  </div>
-
-</body>
-</html>
