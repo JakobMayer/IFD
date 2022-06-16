@@ -18,7 +18,17 @@
         <h3>Säugetiere</h3>
     </nav>
 
-    <input type="text" class="search" placeholder=" Tiersuche">
+
+    <input type="text" name="laender" list="tiere"  class="search" placeholder=" Tiersuche">
+      <datalist id="tiere">
+        <option value="Fuchs" />
+        <option value="Reh" />
+        <option value="Fledermaus" />
+        <option value="Wolf" />
+        <option value="Waschbär" />
+        <option value="Wildschwein" />
+      </datalist>
+    </input>
 
     <div class="content-container" onclick=document.location="Tier.html">
         <img src="Bilder/Saeugetier.png">

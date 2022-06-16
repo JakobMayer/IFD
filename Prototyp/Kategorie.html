@@ -10,15 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
     
-    <title>Document</title>
+    <title>Kategorien</title>
 </head>
-<body>
+<binput>
     <nav>
         <img src="Bilder/back_button_white.png" class="back" onclick=document.location="index.html">
         <h3>Kategorien</h3>
     </nav>
     
-    <input type="text" class="search" placeholder=" Tiersuche">
+    <input type="text" name="laender" list="tiere"  class="search" placeholder=" Tiersuche">
+    <datalist id="tiere">
+      <option value="Fuchs" />
+      <option value="Reh" />
+      <option value="Fledermaus" />
+      <option value="Wolf" />
+      <option value="Waschbär" />
+      <option value="Wildschwein" />
+    </datalist>
+  </input>
+    
 
     <div class="content-container" onclick=document.location="Lexikon.html">
         <img src="Bilder/Saeugetier.png">
