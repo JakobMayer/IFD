@@ -29,6 +29,12 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.button1:focus {
+    background-color: rgba(0, 0, 0, 0.897); 
+    border: 1px solid rgb(252, 252, 252);
+    color: white;
+}
+
 .button1:first-of-type {
     margin-top: 80%;
 }
