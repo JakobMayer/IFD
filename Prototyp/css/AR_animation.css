@@ -22,7 +22,7 @@
     left: 3%;
     background-color: rgba(253, 255, 253, 0.272);
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     z-index: 9999;
     
     text-align: center;
@@ -42,7 +42,7 @@
     left: 10%;
     background-color: rgba(255, 255, 255, 0.7);
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     z-index: 9999;
     text-align: center;
     color: black;
@@ -62,7 +62,7 @@
     left: 42%;
     background-color: rgba(255, 255, 255, 0.7);
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 50px;
     z-index: 9999;
     color: black;
     font-size: 18px;
@@ -83,7 +83,7 @@
     background-color: rgba(108, 179, 111, 0.629);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.299), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 15px;
     z-index: 9999;
     text-align: center;
     color: black;

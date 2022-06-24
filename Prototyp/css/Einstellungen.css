@@ -10,6 +10,11 @@ h5 {
     padding-top: 5px;
 }
 
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .einstellung {
     width: 100%;
     margin-bottom: 50px;

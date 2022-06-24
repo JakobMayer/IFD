@@ -21,7 +21,7 @@ body {
 .button1 {
     display: block;
     background-color: rgba(255, 255, 255, 0.897); 
-    border-radius: 70px;
+    border-radius: 30px;
     padding: 6px 18px  ;
     font-size: 20px;
     margin: 30px auto 0 auto;
@@ -30,8 +30,8 @@ body {
 }
 
 .button1:focus {
-    background-color: rgba(0, 0, 0, 0.897); 
-    border: 1px solid rgb(252, 252, 252);
+    background-color: #719e51; 
+    border: 1px solid #719e51;
     color: white;
 }
 
