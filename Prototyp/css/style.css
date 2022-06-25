@@ -87,6 +87,10 @@ nav {
     border: 1px solid rgb(74, 74, 74);
 }
 
+.content-container:focus {
+    background-color: rgb(60, 119, 63);
+}
+
 .content-container img {
     width: 100px;
     height: auto;
