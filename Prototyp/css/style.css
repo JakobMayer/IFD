@@ -43,11 +43,13 @@ h4 {
     font-size: 18px;
     border-radius: 12px;
     border: 2px solid black;  
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.183), 0 6px 20px 0 rgba(0, 0, 0, 0.215);
+
 }
 
 .search[type=text]:focus {
     border: 2px solid green;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.299), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.364), 0 6px 20px 0 rgba(0, 0, 0, 0.455);
     outline:none;
 }
 
@@ -79,7 +81,7 @@ nav {
 
 .content-container {
     background-color: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.364), 0 6px 20px 0 rgba(0, 0, 0, 0.455);
     width: 90%;
     margin: 20px 5% 10px 5%;
     display: flex;
